@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<servlet>
+  <servlet-name>Prime</servlet-name>
+  <servlet-class>com.app.mod.Prime</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Prime</servlet-name>
+  <url-pattern>/findPrime</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Cookie</servlet-name>
+  <servlet-class>com.app.mod.Cookies</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Cookie</servlet-name>
+  <url-pattern>/findCookie</url-pattern>
+</servlet-mapping>
+</web-app>
